@@ -1,6 +1,6 @@
 # Shiny Workshop
 
-## This repo has the content of the four-day workshop given on Zoom for data community in Riyadh:
+This repo has the content of the four-day workshop given on Zoom for data community in Riyadh:
 
 - Day 1 : R and Tidyverse
 
