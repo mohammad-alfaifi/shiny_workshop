@@ -1,20 +1,19 @@
-
 # basic math --------------------------------------------------------------
 
 1 + 1
 
 2 - 2
 
-2 * 3 
+2 * 3
 
 2 / 2
 
-2 ^ 2 
+2 ^ 2
 
 
 # assignments -------------------------------------------------------------
 
-a = 2 
+a = 2
 
 a <- 3
 
@@ -23,8 +22,8 @@ a <- "hello"
 a <- 1:10
 
 
-b <- 2 
-k <- 3 
+b <- 2
+k <- 3
 
 x <- b + k
 
@@ -50,7 +49,7 @@ y <- list("hi", 2)
 k <- list(x,y)
 
 
-# tibble 
+# tibble
 
 df <- data.frame(
   letters = c("A", "B", "C"),
@@ -133,13 +132,13 @@ install.packages("tidyverse")
 
 library(tidyverse)
 
-df %>% 
+df %>%
   head(2)
 
-df %>% 
+df %>%
   tail(1)
 
-df %>% 
+df %>%
   View()
 
 # if and if else ----------------------------------------------------------
@@ -160,60 +159,60 @@ ifelse(a != 5, "a  = 5 ", "a  != 5")
 
 library(tidyverse)
 
-d_iris <- 
-  iris %>% 
+d_iris <-
+  iris %>%
   as_tibble()
 
-d_iris %>% 
+d_iris %>%
   glimpse()
 
 
 # mutate
-d <- 
-  d_iris %>% 
+d <-
+  d_iris %>%
   mutate(
     a = "a",
     b = "b",
     d = "d",
     f = 1,
     m = Sepal.Length + Sepal.Width
-  ) 
+  )
 
 
 # select
 
-d_iris %>% 
+d_iris %>%
   select(Sepal.Length, Sepal.Width )
 
-d_iris %>% 
+d_iris %>%
   select(-Species)
 
-d_iris %>% 
+d_iris %>%
   select_if(is.numeric)
 
 
 # filter
 
-d_iris %>% 
+d_iris %>%
   filter(Species == "setosa" , Petal.Width == 0.2)
 
 #summarise
 
-d_iris %>% 
+d_iris %>%
   summarise(
     Sepal_Length_sum = sum(Sepal.Length),
     Sepal.Width_sum = sum(Sepal.Width),
     Sepal_Length_mean = mean(Sepal.Length)
   )
 # arrange
-d_iris %>% 
+d_iris %>%
   arrange(desc(Sepal.Length))
 
 # rename
 
-d_iris %>% 
+d_iris %>%
   rename(
-    sepal_length = Sepal.Length, 
+    sepal_length = Sepal.Length,
     sepal_width = Sepal.Width
   )
 
@@ -222,41 +221,41 @@ library(janitor)
 
 library(tidylog)
 
-d_iris %>% 
-  clean_names() %>% 
-  filter(species == "setosa" , petal_width == 0.2) %>% 
-  select(-sepal_length) %>% 
-  rename(sp = species) %>% 
+d_iris %>%
+  clean_names() %>%
+  filter(species == "setosa" , petal_width == 0.2) %>%
+  select(-sepal_length) %>%
+  rename(sp = species) %>%
   arrange(petal_length )
 
 
 # pivot long --------------------------------------------------------------
 
-d_cars <- 
-  mtcars %>% 
+d_cars <-
+  mtcars %>%
   as_tibble()
 
-d_cars_long <- 
-  d_cars %>% 
-  mutate(index = rownames(.)) %>% 
-  select(index, everything()) %>% 
+d_cars_long <-
+  d_cars %>%
+  mutate(index = rownames(.)) %>%
+  select(index, everything()) %>%
   pivot_longer(-index)
 
-d_cars_long %>% 
+d_cars_long %>%
   pivot_wider(index)
 
 
 tibble(
   letter_numbers = paste0(LETTERS, ":", 1:28)
-) %>% 
+) %>%
   separate(letter_numbers, c("letter", "number"), sep = ":")
 
 
 
 # ggplot ------------------------------------------------------------------
 
-d_iris %>% 
-  clean_names() %>% 
+d_iris %>%
+  clean_names() %>%
   ggplot(aes(x = sepal_length, y = sepal_width))+
   geom_point()+
   labs(
@@ -269,11 +268,11 @@ d_iris %>%
 
 # pipe power --------------------------------------------------------------
 
-d_iris %>% 
-  clean_names() %>% 
-  filter(species == "setosa" , petal_width == 0.2) %>% 
-  select(-sepal_length) %>% 
-  rename(sp = species) %>% 
-  arrange(petal_length ) %>% 
+d_iris %>%
+  clean_names() %>%
+  filter(species == "setosa" , petal_width == 0.2) %>%
+  select(-sepal_length) %>%
+  rename(sp = species) %>%
+  arrange(petal_length ) %>%
   ggplot(aes(x = sepal_width, y = petal_length))+
   geom_point(col = "steelblue")
