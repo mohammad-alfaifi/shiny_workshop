@@ -1,4 +1,4 @@
-# shiny_workshop
+# Shiny Workshop
 
 ## This repo has the content of the four-day workshop given at Riyadh:
 
