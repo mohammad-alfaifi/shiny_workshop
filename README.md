@@ -1,6 +1,6 @@
 # shiny_workshop
 
-This repo has the content of the four-day workshop given at Riyadh:
+## This repo has the content of the four-day workshop given at Riyadh:
 
 - day 1 : R and Tidyverse
 
@@ -10,6 +10,6 @@ This repo has the content of the four-day workshop given at Riyadh:
 
 - day 4 : building a dashboard for coronavirus dataset
 
-The workshop videos:
+## The workshop videos:
 
-day 1 : https://www.youtube.com/watch?v=aqIE6o-9L4g
+- day 1 : https://www.youtube.com/watch?v=aqIE6o-9L4g
