@@ -2,14 +2,14 @@
 
 ## This repo has the content of the four-day workshop given at Riyadh:
 
-- day 1 : R and Tidyverse
+- Day 1 : R and Tidyverse
 
-- day 2 : cleaning and analyzing coronavirus dataset
+- Day 2 : cleaning and analyzing coronavirus dataset
 
-- day 3 : building basic shiny dashboard
+- Day 3 : building basic shiny dashboard
 
-- day 4 : building a dashboard for coronavirus dataset
+- Day 4 : building a dashboard for coronavirus dataset
 
 ## The workshop videos:
 
-- day 1 : https://www.youtube.com/watch?v=aqIE6o-9L4g
+- Day 1 : https://www.youtube.com/watch?v=aqIE6o-9L4g
