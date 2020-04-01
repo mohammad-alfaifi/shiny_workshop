@@ -14,6 +14,6 @@
 - Day 2: https://www.youtube.com/watch?v=TqhDxcFrITQ
 
 ## You can find us on Twitter at:
-- Khalid: https://twitter.com/khalidalqarn
-- Moahmmad: https://twitter.com/alfaifi_moh
+- Khalid Alqarni: https://twitter.com/khalidalqarn
+- Moahmmad Alfaifi: https://twitter.com/alfaifi_moh
 
