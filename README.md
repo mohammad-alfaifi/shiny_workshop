@@ -11,3 +11,9 @@
 ## The workshop videos:
 
 - Day 1 : https://www.youtube.com/watch?v=aqIE6o-9L4g
+- Day 2: https://www.youtube.com/watch?v=TqhDxcFrITQ
+
+## You can find us on Twitter at:
+- Khalid: https://twitter.com/khalidalqarn
+- Moahmmad: https://twitter.com/alfaifi_moh
+
