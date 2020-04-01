@@ -17,3 +17,6 @@
 - Khalid Alqarni: https://twitter.com/khalidalqarn
 - Moahmmad Alfaifi: https://twitter.com/alfaifi_moh
 
+# Remain informed
+Follow the data commnity in Riyadh to receive important about this workshop and other workshops conducted by others:
+https://twitter.com/DataRiyadh
