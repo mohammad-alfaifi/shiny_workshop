@@ -12,6 +12,7 @@
 
 - Day 1 : https://www.youtube.com/watch?v=aqIE6o-9L4g
 - Day 2: https://www.youtube.com/watch?v=TqhDxcFrITQ
+- Day 3: https://www.youtube.com/watch?v=C_g3iBD3EpE
 
 ## You can find us on Twitter at:
 - Khalid Alqarni: https://twitter.com/khalidalqarn
