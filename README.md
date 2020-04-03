@@ -19,5 +19,5 @@
 - Moahmmad Alfaifi: https://twitter.com/alfaifi_moh
 
 # Remain informed
-Follow the data commnity in Riyadh to receive important about this workshop and other workshops conducted by others:
+Follow the data commnity in Riyadh to receive important notifications about this workshop and other workshops conducted by others in future:
 https://twitter.com/DataRiyadh
