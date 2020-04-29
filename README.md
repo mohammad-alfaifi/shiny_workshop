@@ -10,10 +10,10 @@
 
 ## The workshop videos:
 
-- Day 1 : https://www.youtube.com/watch?v=aqIE6o-9L4g
-- Day 2: https://www.youtube.com/watch?v=TqhDxcFrITQ
-- Day 3: https://www.youtube.com/watch?v=C_g3iBD3EpE
-- Day 4: https://www.youtube.com/watch?v=GPWeIPnAVaA
+- Day 1 : https://www.youtube.com/watch?v=0AraklFDBeA
+- Day 2: https://www.youtube.com/watch?v=eEFXWLxX6Sg
+- Day 3: https://www.youtube.com/watch?v=89KK3jZkO1M
+- Day 4: https://www.youtube.com/watch?v=cJi1DXA4bjg
 
 ## You can find us on Twitter at:
 - Khalid Alqarni: https://twitter.com/khalidalqarn
